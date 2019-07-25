@@ -7,7 +7,8 @@ input_features:
           height: 256
           width: 256
           resize_method: interpolate
-          in_memory: false
+          num_channels: 3
+        in_memory: false
 
 output_features:
     -
